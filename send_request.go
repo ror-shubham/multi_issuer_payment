@@ -12,11 +12,12 @@ import (
 	"os"
 )
 
-func main() {
+/*func main() {
 	issue()
 	transact()
 
 }
+*/
 
 func issue() {
 	fmt.Print("Enter UserAddress: ")
