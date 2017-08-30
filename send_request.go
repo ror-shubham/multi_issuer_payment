@@ -12,14 +12,15 @@ import (
 	"os"
 )
 
-/*func main() {
-	issue()
-	transact()
+/*
+func main() {
+	Issue()
+	Transact()
 
 }
 */
 
-func issue() {
+func Issue() {
 	fmt.Print("Enter UserAddress: ")
 	var userAddress string
 	fmt.Scanln(&userAddress)
@@ -55,7 +56,7 @@ func issue() {
 	fmt.Println(string(body))
 }
 
-func transact() {
+func Transact() {
 	fmt.Print("Enter fromAddress: ")
 	var fromAddress string
 	fmt.Scanln(&fromAddress)
